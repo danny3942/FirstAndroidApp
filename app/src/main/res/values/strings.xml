@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="touch_me">Touch ME!</string>
+    <string name="sampleimage">SampleImage</string>
+</resources>
