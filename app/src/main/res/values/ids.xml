@@ -2,4 +2,5 @@
 <resources>
     <item name="buttonId" type="id"/>
     <item name="messageText" type="id"/>
+    <item name="frame" type="id"/>
 </resources>

@@ -3,4 +3,13 @@
     <string name="touch_me">Touch ME!</string>
     <string name="sampleimage">SampleImage</string>
     <string name="button">Button</string>
+    <string name="navigation">Navigation</string>
+    <string name="red">Red</string>
+    <string name="red_image">Red Image</string>
+    <string name="green">Green</string>
+    <string name="yellow">Yellow</string>
+    <string name="green_image">Green Image</string>
+    <string name="yellow_image">Yellow Image</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

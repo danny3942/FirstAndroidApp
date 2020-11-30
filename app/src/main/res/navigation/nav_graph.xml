@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/nav_graph.xml"
+            app:startDestination="@id/navigation">
+
+    <activity android:id="@+id/mainActivity3" android:name="com.example.myapplication.MainActivity"
+              android:label="activity_main" tools:layout="@layout/activity_main"/>
+    <fragment android:id="@+id/blankFragment" android:name="com.example.myapplication.BlankFragment"
+              android:label="fragment_blank" tools:layout="@layout/fragment_blank"/>
+    <fragment android:id="@+id/blankFragment2" android:name="com.example.myapplication.BlankFragment2"
+              android:label="fragment_blank2" tools:layout="@layout/fragment_blank2"/>
+    <navigation android:id="@+id/navigation" app:startDestination="@id/coolStuff2">
+        <fragment android:id="@+id/coolStuff2" android:name="com.example.myapplication.coolStuff"
+                      android:label="fragment_cool_stuff" tools:layout="@layout/fragment_cool_stuff">
+            <action android:id="@+id/action_coolStuff2_to_mainActivity3" app:destination="@id/mainActivity3"/>
+            <action android:id="@+id/action_coolStuff2_to_blankFragment" app:destination="@id/blankFragment"/>
+            <action android:id="@+id/action_coolStuff2_to_blankFragment2" app:destination="@id/blankFragment2"/>
+        </fragment>
+    </navigation>
+</navigation>
